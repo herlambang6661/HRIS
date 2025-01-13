@@ -15,32 +15,32 @@ class UpahSeeder extends Seeder
     {
         $upah = [
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenis' => 'gapok',
                 'nominal' => '2517730',
             ],
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenis' => 'bpjs_jkk',
                 'nominal' => '0',
             ],
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenis' => 'bpjs_jkm',
                 'nominal' => '0',
             ],
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenis' => 'bpjs_jp',
                 'nominal' => '0',
             ],
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenis' => 'bpjs_jht',
                 'nominal' => '0',
             ],
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenis' => 'bpjs_ks',
                 'nominal' => '0',
             ],

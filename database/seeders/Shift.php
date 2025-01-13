@@ -15,7 +15,7 @@ class Shift extends Seeder
     {
         $user = [
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'shift' => 'Day-Shift',
                 'jenis' => 'Shift-0',
                 'in'    => '08:00:00',
@@ -25,7 +25,7 @@ class Shift extends Seeder
                 'out_rest' => '13:00:00',
             ],
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'shift' => 'Shift',
                 'jenis' => 'Shift-1',
                 'in'    => '06:00:00',
@@ -35,7 +35,7 @@ class Shift extends Seeder
                 'out_rest' => '12:00:00',
             ],
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'shift' => 'Shift',
                 'jenis' => 'Shift-2',
                 'in'    => '14:00:00',
@@ -45,7 +45,7 @@ class Shift extends Seeder
                 'out_rest' => '20:00:00',
             ],
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'shift' => 'Shift',
                 'jenis' => 'Shift-3',
                 'in'    => '22:00:00',

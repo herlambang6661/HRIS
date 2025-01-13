@@ -15,8 +15,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" href="{{ asset('hrd16.png') }}">
-    <title>Login - EHRD</title>
+    <link rel="icon" href="{{ url('photo/icon/BTC_blue.png') }}">
+    <title>Login - HRIS</title>
     <!-- CSS files -->
     <link href="{{ asset('assets/extentions/fontawesome/css/all.min.css') }}" rel="stylesheet">
     <link href="{{ url('assets/dist/css/tabler.min.css?1684106062') }}" rel="stylesheet" />
@@ -131,8 +131,8 @@
                 <div class="col-lg">
                     <div class="container-tight">
                         <div class="text-center mb-4 h2">
-                            E-HRD <br>
-                            PT PINTEX
+                            <img src="{{ url('photo/icon/BTC_blue.png') }}" alt="BTC" srcset=""
+                                style="height: 7em">
                         </div>
                         <div class="card card-md">
                             <div class="card-body">
@@ -267,52 +267,7 @@
             --------------------------------------------==============================================================================================================================================================*/
         });
     </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const submitLoginButton = document.getElementById('submitLogin');
-
-            submitLoginButton.setAttribute('disabled', true);
-
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(
-                    function(position) {
-                        const latitude = position.coords.latitude;
-                        const longitude = position.coords.longitude;
-
-                        updateLocation(latitude, longitude);
-
-                        submitLoginButton.removeAttribute('disabled');
-                    },
-                    function(error) {
-                        alert("Harap izinkan akses lokasi untuk melanjutkan.");
-                        console.error(error);
-
-                        submitLoginButton.setAttribute('disabled', true);
-                    }
-                );
-            } else {
-                alert("Perangkat Anda tidak mendukung Geolocation.");
-            }
-        });
-
-        function updateLocation(latitude, longitude) {
-            $.ajax({
-                url: "{{ route('update.location') }}",
-                method: "POST",
-                data: {
-                    _token: "{{ csrf_token() }}",
-                    latitude: latitude,
-                    longitude: longitude
-                },
-                success: function(response) {
-                    console.log("Lokasi berhasil diperbarui:", response);
-                },
-                error: function(xhr) {
-                    console.error("Gagal memperbarui lokasi:", xhr.responseText);
-                }
-            });
-        }
-    </script>
+    <script></script>
 </body>
 
 </html>

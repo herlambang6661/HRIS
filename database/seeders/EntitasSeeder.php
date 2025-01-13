@@ -15,16 +15,16 @@ class EntitasSeeder extends Seeder
     {
         $user = [
             [
-                'singkatan' => 'PINTEX',
-                'nama' => 'PT. Plumbon International Textile',
+                'singkatan' => 'BTC',
+                'nama' => 'PT. Bunga Tulip Company',
                 'alamat' => 'Cirebon',
                 'remember_token' => '0',
                 'created_at' => date('Y-m-d H:i:s'),
             ],
             [
-                'singkatan' => 'TFI',
-                'nama' => 'PT. Tantra Fiber Industry',
-                'alamat' => 'Cirebon',
+                'singkatan' => 'BTN',
+                'nama' => 'PT. Bunga Tulip Nusantara',
+                'alamat' => 'Jakarta',
                 'remember_token' => '0',
                 'created_at' => date('Y-m-d H:i:s'),
             ],

@@ -14,7 +14,7 @@ class SuratSeeder extends Seeder
     {
         $user = [
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Basic',
                 'nmsurat' => 'Surat Deskripsi Pekerjaan',
                 'nilai' => '',
@@ -24,7 +24,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Intern',
                 'nmsurat' => 'Surat Pernyataan',
                 'nilai' => '',
@@ -34,7 +34,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Intern',
                 'nmsurat' => 'Surat Peringatan (SP)',
                 'nilai' => '',
@@ -44,7 +44,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Intern',
                 'nmsurat' => 'Status',
                 'nilai' => '',
@@ -54,7 +54,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Intern',
                 'nmsurat' => 'Nota Dalam',
                 'nilai' => '',
@@ -64,7 +64,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Intern',
                 'nmsurat' => 'Surat Teguran',
                 'nilai' => '',
@@ -74,7 +74,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Intern',
                 'nmsurat' => 'Demosi',
                 'nilai' => '',
@@ -84,7 +84,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Intern',
                 'nmsurat' => 'Promosi',
                 'nilai' => '',
@@ -94,7 +94,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Keputusan-Mgr. Cuti',
                 'nilai' => 'C',
@@ -104,7 +104,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Surat Izin Keluar Pabrik',
                 'nilai' => 'H',
@@ -114,7 +114,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Formulir Izin Tidak Masuk Karena Sakit',
                 'nilai' => 'S',
@@ -124,7 +124,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Surat Geser/Tukar Libur',
                 'nilai' => 'L',
@@ -134,7 +134,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Surat Perintah Lembur',
                 'nilai' => 'H',
@@ -144,7 +144,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Formulir Permohonan Cuti',
                 'nilai' => 'C',
@@ -154,7 +154,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Keputusan-Mgr. Hadir',
                 'nilai' => 'H',
@@ -164,7 +164,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Keputusan-Mgr. Libur',
                 'nilai' => 'L',
@@ -174,7 +174,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Keputusan-Mgr. Alpa',
                 'nilai' => 'A',
@@ -184,7 +184,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Keputusan-Mgr. Sakit',
                 'nilai' => 'S',
@@ -194,7 +194,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Surat Izin Setengah Hari',
                 'nilai' => '½',
@@ -204,7 +204,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Permohonan Cuti Khusus',
                 'nilai' => 'CK',
@@ -214,7 +214,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Komunikasi',
                 'nmsurat' => 'Keputusan-Mgr. Izin',
                 'nilai' => 'I',
@@ -224,7 +224,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Perjanjian',
                 'nmsurat' => 'Perjanjian Kerja OL',
                 'nilai' => 'OL',
@@ -234,7 +234,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Perjanjian',
                 'nmsurat' => 'Perjanjian Kerja PHL',
                 'nilai' => 'PHL',
@@ -244,7 +244,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Perjanjian',
                 'nmsurat' => 'Perjanjian Kontrak',
                 'nilai' => 'Kontrak',
@@ -254,7 +254,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Perjanjian',
                 'nmsurat' => 'Perjanjian Magang',
                 'nilai' => 'Magang',
@@ -264,7 +264,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Status',
                 'nmsurat' => 'Surat Cuti Melahirkan',
                 'nilai' => 'CM',
@@ -274,7 +274,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Status',
                 'nmsurat' => 'Meninggal Dunia',
                 'nilai' => 'Meninggal Dunia',
@@ -284,7 +284,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Status',
                 'nmsurat' => 'Surat Pengunduran Diri (Resign)',
                 'nilai' => 'Resign',
@@ -294,7 +294,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Status',
                 'nmsurat' => 'Surat Pemutusan Hubungan Kerja (PHK)',
                 'nilai' => 'PHK',
@@ -304,7 +304,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Status',
                 'nmsurat' => 'Surat Keputusan Dirumahkan',
                 'nilai' => 'R',
@@ -314,7 +314,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Status',
                 'nmsurat' => 'Surat Keputusan Kembali Aktif',
                 'nilai' => 'Aktif',
@@ -324,7 +324,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Status',
                 'nmsurat' => 'Surat Keputusan Pensiun',
                 'nilai' => 'Pensiun',
@@ -334,7 +334,7 @@ class SuratSeeder extends Seeder
             ],
 
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'jenissurat' => 'Status',
                 'nmsurat' => 'Habis Kontrak',
                 'nilai' => 'Habis Kontrak',

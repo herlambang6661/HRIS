@@ -6,7 +6,7 @@
                     <li class="list-inline-item"><a href="https://tabler.io/docs" target="_blank" class="link-secondary"
                             rel="noopener">Documentation</a></li>
                     <li class="list-inline-item"><a href="./license.html" class="link-secondary">License</a></li>
-                    <li class="list-inline-item"><a href="https://github.com/tabler/tabler" target="_blank"
+                    <li class="list-inline-item"><a href="https://github.com/herlambang6661/HRIS" target="_blank"
                             class="link-secondary" rel="noopener">Source code</a></li>
                     <li class="list-inline-item">
                         <a href="https://github.com/sponsors/codecalm" target="_blank" class="link-secondary"
@@ -27,13 +27,16 @@
             <div class="col-12 col-lg-auto mt-3 mt-lg-0">
                 <ul class="list-inline list-inline-dots mb-0">
                     <li class="list-inline-item">
-                        Copyright &copy; 2024
-                        PT Plumbon International Textile.
+                        Created at &copy; 2022
+                        By <a href="https://github.com/herlambang6661" target="_blank" class="link-secondary"
+                            rel="noopener">Herlambang Yudha Pahlawan</a>
+                        Using <a href="https://tabler.io" target="_blank" class="link-secondary"
+                            rel="noopener">Tabler</a>.
                         All rights reserved.
                     </li>
                     <li class="list-inline-item">
                         <a href="./changelog.html" class="link-secondary" rel="noopener">
-                            v10.24.0413
+                            v10.25.0113
                         </a>
                     </li>
                 </ul>

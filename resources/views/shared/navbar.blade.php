@@ -258,8 +258,8 @@
             </div>
             <div style="margin-left: 5px">
                 <select class="form-select" id="selectEntitas">
-                    <option value="PINTEX">PINTEX</option>
-                    <option value="TFI">TFI</option>
+                    <option value="BTC">Bunga Tulip Company</option>
+                    <option value="BTN">Bunga Tulip Nusantara</option>
                 </select>
             </div>
         </div>

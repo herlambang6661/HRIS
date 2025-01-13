@@ -144,8 +144,12 @@ class AuthController extends Controller
             $kontrak = DB::table('penerimaan_legalitas as l')->join('penerimaan_karyawan as k', 'l.userid', '=', 'k.userid')->where('k.status', 'like', '%Aktif%')->where('l.nmsurat', 'Perjanjian Kontrak')->where('l.tglak', '>', date('Y-m-d'))->orderBy('l.tglak', 'asc')->limit('50')->get();
             $sp = DB::table('penerimaan_legalitas')->where('nmsurat', 'Surat Peringatan (SP)')->where('legalitastgl', '>=', now()->subMonths(6))->orderBy('legalitastgl', 'desc')->limit('50')->get();
 
-            foreach ($absensi as $ab) {
-                $absen = Carbon::parse($ab->tanggal)->format('d-m-Y');
+            if ($absensi->isEmpty()) {
+                $absen = 'Belum ada absensi yang ditarik';
+            } else {
+                foreach ($absensi as $ab) {
+                    $absen = Carbon::parse($ab->tanggal)->format('d-m-Y');
+                }
             }
 
             if (!$latitude || !$longitude) {
@@ -155,14 +159,14 @@ class AuthController extends Controller
                     'weatherData' => 'N/A',
                 ]);
             }
-            $currentWeatherData = $this->weatherService->getCurrentWeatherData($latitude, $longitude);
+            // $currentWeatherData = $this->weatherService->getCurrentWeatherData($latitude, $longitude);
 
             return view('products.dashboard', [
                 'judul' => $judul,
                 'lamaran' => $countLamaran,
                 'karyawan' => $countKaryawan,
                 'komunikasi' => $countKomunikasi,
-                'weatherData' => $currentWeatherData,
+                // 'weatherData' => $currentWeatherData,
                 'absen' => $absen,
                 'kontrak' => $kontrak,
                 'sp' => $sp,

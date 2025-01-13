@@ -6,11 +6,12 @@
         </button>
         <h1 class="navbar-brand navbar-brand-autodark" style="margin-top: 5px">
             <a href="{{ url('dashboard') }}" style="margin-right: 5px">
-                <img src="{{ asset('hrd32.png') }}" alt="" srcset="">
+                <img src="{{ url('photo/icon/BTC_iconGray.png') }}" alt="BTC" srcset=""
+                    style="height: 3em;filter: invert(1);">
             </a>
-            <a href="{{ url('dashboard') }}" style="margin-top: 3px">
-                E-HRD
-            </a>
+            {{-- <a href="{{ url('dashboard') }}" style="margin-top: 3px">
+                HRIS
+            </a> --}}
         </h1>
         <div class="navbar-nav flex-row d-lg-none">
             <div class="nav-item d-none d-lg-flex me-3">

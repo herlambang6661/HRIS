@@ -15,7 +15,7 @@ class Harilibur extends Seeder
     {
         $user = [
             [
-                'entitas' => 'PINTEX',
+                'entitas' => 'BTC',
                 'tanggal' => '2024-02-13',
                 'libur_nasional' => 'Hari Raya Idul Fitri',
                 'sumber_ketentuan' => 'Libur Nasional',
